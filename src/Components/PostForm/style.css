@@ -1,0 +1,39 @@
+/* start of the post form styling */
+
+
+.add-post{
+  background: #fff;
+  padding-top: 10px
+}
+.add-post input{
+  background: #fff;
+  border: none;
+  margin-left: 20px;
+  width: 30%
+}
+.add-post img{
+  border-radius: 50%;
+  position: relative;
+  top: 20px
+}
+.form-input{
+  padding-bottom: 10px
+}
+.add-post input + button{
+  margin-left: 120px
+}
+.add-post button{
+  width: 30%;
+  border: none
+}
+.add-pic {
+  background: #ccc;
+  padding: 10px;
+  margin-top: 25px
+}
+.add-pic button{
+  background-color: #ccc;
+  color: #333;
+  font-size: 16px
+}
+/* end of the post form styling */

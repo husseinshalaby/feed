@@ -1,0 +1,21 @@
+
+/*  start of header styling */
+
+.header{
+  background-color: #293760;
+  color: #fff;
+  padding: 10px 20px;
+
+}
+.header h1 {
+  line-height: 60px
+}
+
+.header div {
+  margin: 0;
+  padding: 0
+}
+
+
+
+/* end of the header styling */

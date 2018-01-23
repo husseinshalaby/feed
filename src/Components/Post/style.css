@@ -1,0 +1,90 @@
+
+/* start of the post styling */
+
+.post{
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  text-align: left
+}
+.post-title{
+  width: 65%;
+
+}
+.post-title p {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px 0 0 0
+}
+.post-image{
+  width: 25%;
+  text-align: center
+}
+.post-image img{
+  border-radius: 50%
+}
+
+.dots{
+  width: 10%;
+  line-height: 50px
+}
+
+.post-reactions ul {
+  list-style: none;
+  padding:0
+}
+.post-reactions ul li {
+  display: inline-block;
+}
+.post-reactions ul li + li {
+  display: inline-block;
+  margin-left: 10px
+}
+.reaction{
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px
+}
+.reaction span {
+  padding-right: 5px;
+  color:#999
+}
+.add-reaction button{
+  font-size: 20px;
+  color: #ccc;
+  padding:10px ;
+  line-height: 16px;
+  margin-bottom: 4px;
+  border: 2px dotted #ccc;
+  border-radius: 5px
+
+}
+.post-comments{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.post-comments form{
+  width: 100%;
+  background: #eee
+}
+.post-comments form input{
+  width: 80%
+}
+.post-comments form button{
+  width: 20%
+}
+.post-comments form input ,
+.post-comments form button{
+  padding: 10px;
+  border: none;
+  color: #999;
+  border-top: 1px solid #ccc;
+  font-size: 15px;
+  background: #eee
+}
+/* end of the post styling */
